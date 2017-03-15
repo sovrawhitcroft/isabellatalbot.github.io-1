@@ -2,19 +2,23 @@ header {
 	text-align: center;
 	color: black;
 }
+.navmenu{
+	background-color: gray;
+}
  ul {
  	list-style: none;
  	padding: 0px;
  	margin: 0px;
  }
   ul li {
-  	display: block;
-  	position: relative;
-  	float: right;
+  	display: inline-block;
+  	/*position: relative;
+  	float: right;*/
   }
   li ul {
   	display: none;
   }
+
   ul li a {
   	display: block;
   	background: gray;
@@ -29,6 +33,7 @@ header {
   li:hover ul {
   	display: block; 
   	position: absolute;
+  	background: pink;
   }
   li:hover li {
   	float: none;
@@ -52,9 +57,10 @@ body {
 footer {
 	position: absolute;
 	width: 100%;
+	padding: 10px;
 	display: block;
 	bottom: 0px;
 	background-color: pink;
-	height: 40px;
+	height: 50px;
 	color: white;
 }
