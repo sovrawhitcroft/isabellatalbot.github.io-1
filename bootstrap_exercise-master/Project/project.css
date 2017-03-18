@@ -3,7 +3,8 @@ header {
 	color: black;
 }
 .navmenu{
-	background-color: gray;
+	background-color: #789684;
+	padding: 10px;
 }
  ul {
  	list-style: none;
@@ -21,46 +22,63 @@ header {
 
   ul li a {
   	display: block;
-  	background: gray;
+  	background: #789684;
   	padding: 5px 10px 5px 10px;
   	text-decoration: none;
     white-space: nowrap;
-    color: #fff;
+    color: black;
+    font-family: Playfair Display;
 }
   ul li a:hover {
-  	background: pink;
+  	background: #d9ffb3;
   }
   li:hover ul {
   	display: block; 
   	position: absolute;
-  	background: pink;
+  	background: #d9ffb3;
   }
   li:hover li {
   	float: none;
   }
   li:hover a {
-  	background: pink;
+  	background: #d9ffb3;
   }
   li:hover li a:hover {
-  	background: gray;
+  	background: #789684;
   }
   #drop-nav li ul li {border-top: 0px;
   }
 body {
-	background:url(http://cdn.wallpapersafari.com/9/73/uGoxQb.jpg);
+	background:url(https://s-media-cache-ak0.pinimg.com/originals/74/d0/e7/74d0e786967db6509e74296ad197f361.jpg);
 	background-size: cover;
 }
 .home {
-	background-color: pink;
+	background-color: #d9ffb3;
 	margin: 40px;
+	font-family: Playfair Display;
+	background: linear-gradient(bottom, rgba(217,255,179,.8), rgba(120,150,132,.8));
+  	background: -webkit-linear-gradient(bottom, rgba(217,255,179,.8), rgba(120,150,132,.8));
+  	background: -moz-linear-gradient(bottom, rgba(217,255,178,.8), rgba(120,150,132,.8));
 }
-footer {
+
+#social-buttons button{
+	color: white;
+}
+.btn-facebook {
+background-color: #4868ac;
+border-color: #314776;
+}
+
+.btn-pinterest {
+background-color: #b62f26;
+border-color: #b62f26;
+}
+#footer {
 	position: absolute;
 	width: 100%;
-	padding: 10px;
-	display: block;
 	bottom: 0px;
-	background-color: pink;
+	display: block;
+	background-color: #789684;
 	height: 50px;
 	color: white;
 }
