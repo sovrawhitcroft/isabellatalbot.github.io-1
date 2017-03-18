@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+<div id="container">
+  <div id="header"></div>
+  <div id="body"></div>
+  <div id="footer"></div>
+</div>
+
+<head>
+	<title>Go Girl!</title>
+	<link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="project.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+</head>
+<style>#wrapper .text {
+position:relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
+}
+
+#wrapper:hover .text {
+visibility:visible;
+}
+
+p {
+    text-align: center; 
+}
+p span { 
+    background-color: white;
+}
+</style>
+
+<body>
+<div class="navmenu">
+ <ul>
+      <li><a href="#">Home</a></li>      
+      <li><a href="#">About</a></li>
+      <li><a href="#">Go!</a>
+        <ul>
+          <li><a href="#">Why Travel alone?</a></li><br>
+          <li><a href="#">Where to?</a></li><br>
+          <li><a href="#">Tips</a></li>
+        </ul>
+      </li>
+  </ul>
+</div>
+ <div class="home">
+   <div id="buzz">
+      <h2>6 reasons to go solo<br /><small>What's so good about being alone?</small></h2>
+  
+</div>​
+
+    <div class='row'>
+    <div class='col-sm-4 text-center'>
+    <div>
+    <div id="wrapper">
+    <img src="http://www.realgap.co.uk/sites/realgap/files/drupal-images/roads_quote.jpg" style='width:80%' class="hover" />
+    <p class="text"><span>You’ll see incredible places and meet new people. While travelling you’ll have a lot of time alone to think. You will experience new situations and learn about yourself in how you react to them</span></p> 
+    </div>
+    <div id="wrapper">
+    <img src="https://static2.stuff.co.nz/1384462426/863/9185863.jpg" style='width:80%' class="hover" />
+    <p class="text"><span>You will live a story worth telling. Don’t settle if you think life is getting mundane. Travelling is the best way to totally change your life if you feel it’s stagnating.</span></p> 
+    </div>
+    </div>
+    </div>
+    <div>
+      <div class='col-sm-4 text-center'>
+        <div>
+        <div id="wrapper">
+    <img src="http://todayslifestyle.com/wp-content/uploads/2014/09/Why-Everyone-Should-Try-Travelling-Solo-intro.jpg" style='width:80%' class="hover" />
+    <p class="text"><span>You’ll get to know yourself better. While travelling you’ll have a lot of time alone to think. You will experience new situations and learn about yourself in how you react to them.<span></p> 
+    </div>
+    <div id="wrapper">
+    <img src="http://cms.hostelworld.com/hwblog/wp-content/uploads/sites/2/2016/08/nepal.jpg" style='width:80%' class="hover" />
+    <p class="text"><span>It makes planning the trip a lot easier. We all have places we want to go, and everyone has different schedules. Alone, you don’t have to restrict yourself to other people’s time limits or travel to places that you don’t feel comfortable visiting.</span></p> 
+    </div>
+    </div>
+    </div>
+    <div>
+      <div class='col-sm-4 text-center'>
+        <div id="wrapper">
+    <img src="http://91news.com.au/wp-content/uploads/2016/04/Indonesia.jpg" style='width:80%' class="hover" />
+    <p class="text"> <span>It will help you feel more confident. It will help you feel more confident. Travelling alone can be a daunting prospect. If you can travel alone you have already achieved something to be proud of.</span> </p> 
+    </div>
+    <div id="wrapper">
+    <img src="http://www.cairogossip.com/wp-content/uploads/2016/03/solo-travel-main-622x225.jpg" style='width:80%' class="hover" />
+    <p class="text"> <span>It will make you a better traveller. If you’re alone, you will observe places and people more thoroughly. Being an outsider changes the way you interact with other people. More alone time will make you more reflective.</span></p> 
+    </div>
+    </div>
+    </div> 
+  </div>
+ </div>
+
+
+<div class="container">
+<footer>
+<a href="https://twitter.com/intent/tweet?button_hashtag=GoGirl" class="twitter-hashtag-button" data-size="large" data-text="Where will you go?" data-related="" data-show-count="false">Tweet #GoGirl</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div id='social-buttons'>
+      <button class='btn-facebook'>Facebook</button>
+      <button class='btn-pinterest'>Pinterest</button>
+    </div>
+contact us
+
+</footer>
+</div>
+</body>
+
+</html>
