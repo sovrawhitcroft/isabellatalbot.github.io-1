@@ -28,7 +28,8 @@
 	text-align: center; 
 	}
 	.text { 
-	background-color: white;
+	background: rgba(200, 54, 54, 0.5);
+  color: rgba(255,255,255, 1);
 	}
   img.hover{
     height: 200px;
